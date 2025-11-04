@@ -10,18 +10,24 @@ float trungbinh(int a, int b) {
 
 {
 	return a-b;
+}
 int tich(int a, int b);
 float thuong(int a, int b)
 {
 	return a/b;
+}
+void name(){
+	cout<<"Luan";
+}
+
 int main()
 {
-<<<<<<< HEAD
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"Tong =";
 	count<<"A";
 	cout<<"Hieu la:" <<hieu(10,5);
 	cout<<"Thuong la:"<<thuong(10,5);
+	name();
 	system("pause");
 	return 0;
 }
